@@ -1,0 +1,571 @@
+[1715226914,084][INFO]: Starting ChromeDriver 123.0.6312.86 (9b72c47a053648d405376c5cf07999ed626728da-refs/branch-heads/6312@{#698}) on port 9515
+[1715226914,084][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1715226915,083][INFO]: [239f853c6b92a47f03541e90e864889c] COMMAND InitSession {
+   "desiredCapabilities": {
+      "Platform": "Linux"
+   },
+   "requiredCapabilities": {
+   }
+}
+[1715226915,084][INFO]: Browser search. Trying... /home/alscaldeira/Workspaces/Pessoal/Go/bot/twitter/driver/chrome
+[1715226915,084][INFO]: Browser search. Trying... /home/alscaldeira/Workspaces/Pessoal/Go/bot/twitter/driver/chrome
+[1715226915,084][INFO]: Browser search. Trying... /home/alscaldeira/Workspaces/Pessoal/Go/bot/twitter/driver/google-chrome
+[1715226915,084][INFO]: Browser search. Trying... /home/alscaldeira/Workspaces/Pessoal/Go/bot/twitter/driver/chromium
+[1715226915,084][INFO]: Browser search. Trying... /home/alscaldeira/Workspaces/Pessoal/Go/bot/twitter/driver/chromium-browser
+[1715226915,084][INFO]: Browser search. Trying... /usr/local/sbin/chrome
+[1715226915,084][INFO]: Browser search. Trying... /usr/local/bin/chrome
+[1715226915,084][INFO]: Browser search. Trying... /usr/sbin/chrome
+[1715226915,084][INFO]: Browser search. Trying... /usr/bin/chrome
+[1715226915,084][INFO]: Browser search. Trying... /sbin/chrome
+[1715226915,084][INFO]: Browser search. Trying... /bin/chrome
+[1715226915,084][INFO]: Browser search. Trying... /opt/google/chrome/chrome
+[1715226915,084][INFO]: Browser search. Found at  /opt/google/chrome/chrome
+[1715226915,085][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1715226915,085][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1715226915,086][INFO]: ChromeDriver supports communication with Chrome via pipes. This is more reliable and more secure.
+[1715226915,086][INFO]: Use the --remote-debugging-pipe Chrome switch instead of the default --remote-debugging-port to enable this communication mode.
+[1715226915,086][INFO]: Launching chrome: /opt/google/chrome/chrome --allow-pre-commit-input --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-logging --log-level=0 --no-first-run --no-service-autorun --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir=/tmp/.org.chromium.Chromium.FPnIDB data:,
+[1715226915,803][WARNING]: This version of ChromeDriver has not been tested with Chrome version 124.
+[1715226915,821][INFO]: resolved localhost to ["127.0.0.1"]
+[1715226915,881][INFO]: [239f853c6b92a47f03541e90e864889c] RESPONSE InitSession {
+   "acceptInsecureCerts": false,
+   "acceptSslCerts": false,
+   "browserConnectionEnabled": false,
+   "browserName": "chrome",
+   "chrome": {
+      "chromedriverVersion": "123.0.6312.86 (9b72c47a053648d405376c5cf07999ed626728da-refs/branch-heads/6312@{#698})",
+      "userDataDir": "/tmp/.org.chromium.Chromium.FPnIDB"
+   },
+   "cssSelectorsEnabled": true,
+   "databaseEnabled": false,
+   "fedcm:accounts": true,
+   "goog:chromeOptions": {
+      "debuggerAddress": "localhost:43623"
+   },
+   "handlesAlerts": true,
+   "hasTouchScreen": false,
+   "javascriptEnabled": true,
+   "locationContextEnabled": true,
+   "mobileEmulationEnabled": false,
+   "nativeEvents": true,
+   "networkConnectionEnabled": false,
+   "pageLoadStrategy": "normal",
+   "platform": "Linux",
+   "proxy": {
+   },
+   "~~~": "..."
+}
+[1715226915,883][INFO]: [239f853c6b92a47f03541e90e864889c] COMMAND Navigate {
+   "url": "https://twitter.com/i/flow/login"
+}
+[1715226915,883][INFO]: Waiting for pending navigations...
+[1715226915,884][INFO]: Done waiting for pending navigations. Status: ok
+[1715226916,127][INFO]: Waiting for pending navigations...
+[1715226917,225][INFO]: Done waiting for pending navigations. Status: ok
+[1715226917,225][INFO]: [239f853c6b92a47f03541e90e864889c] RESPONSE Navigate
+[1715226917,225][INFO]: [239f853c6b92a47f03541e90e864889c] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@autocomplete='username']"
+}
+[1715226917,225][INFO]: Waiting for pending navigations...
+[1715226917,226][INFO]: Done waiting for pending navigations. Status: ok
+[1715226917,252][INFO]: Waiting for pending navigations...
+[1715226917,456][INFO]: Done waiting for pending navigations. Status: ok
+[1715226917,456][INFO]: [239f853c6b92a47f03541e90e864889c] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@autocomplete='username']"}
+  (Session info: chrome=124.0.6367.155)
+[1715226917,457][INFO]: [239f853c6b92a47f03541e90e864889c] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@autocomplete='username']"
+}
+[1715226917,457][INFO]: Waiting for pending navigations...
+[1715226917,542][INFO]: Done waiting for pending navigations. Status: ok
+[1715226918,180][INFO]: Waiting for pending navigations...
+[1715226918,198][INFO]: Done waiting for pending navigations. Status: ok
+[1715226918,198][INFO]: [239f853c6b92a47f03541e90e864889c] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@autocomplete='username']"}
+  (Session info: chrome=124.0.6367.155)
+[1715226918,198][INFO]: [239f853c6b92a47f03541e90e864889c] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@autocomplete='username']"
+}
+[1715226918,199][INFO]: Waiting for pending navigations...
+[1715226918,199][INFO]: Done waiting for pending navigations. Status: ok
+[1715226918,214][INFO]: Waiting for pending navigations...
+[1715226918,217][INFO]: Done waiting for pending navigations. Status: ok
+[1715226918,217][INFO]: [239f853c6b92a47f03541e90e864889c] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@autocomplete='username']"}
+  (Session info: chrome=124.0.6367.155)
+[1715226918,217][INFO]: [239f853c6b92a47f03541e90e864889c] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@autocomplete='username']"
+}
+[1715226918,217][INFO]: Waiting for pending navigations...
+[1715226918,218][INFO]: Done waiting for pending navigations. Status: ok
+[1715226918,232][INFO]: Waiting for pending navigations...
+[1715226918,233][INFO]: Done waiting for pending navigations. Status: ok
+[1715226918,233][INFO]: [239f853c6b92a47f03541e90e864889c] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@autocomplete='username']"}
+  (Session info: chrome=124.0.6367.155)
+[1715226918,234][INFO]: [239f853c6b92a47f03541e90e864889c] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@autocomplete='username']"
+}
+[1715226918,234][INFO]: Waiting for pending navigations...
+[1715226918,236][INFO]: Done waiting for pending navigations. Status: ok
+[1715226918,251][INFO]: Waiting for pending navigations...
+[1715226918,252][INFO]: Done waiting for pending navigations. Status: ok
+[1715226918,252][INFO]: [239f853c6b92a47f03541e90e864889c] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@autocomplete='username']"}
+  (Session info: chrome=124.0.6367.155)
+[1715226918,253][INFO]: [239f853c6b92a47f03541e90e864889c] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@autocomplete='username']"
+}
+[1715226918,254][INFO]: Waiting for pending navigations...
+[1715226918,260][INFO]: Done waiting for pending navigations. Status: ok
+[1715226918,278][INFO]: Waiting for pending navigations...
+[1715226918,281][INFO]: Done waiting for pending navigations. Status: ok
+[1715226918,282][INFO]: [239f853c6b92a47f03541e90e864889c] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@autocomplete='username']"}
+  (Session info: chrome=124.0.6367.155)
+[1715226918,282][INFO]: [239f853c6b92a47f03541e90e864889c] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@autocomplete='username']"
+}
+[1715226918,282][INFO]: Waiting for pending navigations...
+[1715226918,284][INFO]: Done waiting for pending navigations. Status: ok
+[1715226918,299][INFO]: Waiting for pending navigations...
+[1715226918,302][INFO]: Done waiting for pending navigations. Status: ok
+[1715226918,302][INFO]: [239f853c6b92a47f03541e90e864889c] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@autocomplete='username']"}
+  (Session info: chrome=124.0.6367.155)
+[1715226918,303][INFO]: [239f853c6b92a47f03541e90e864889c] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@autocomplete='username']"
+}
+[1715226918,303][INFO]: Waiting for pending navigations...
+[1715226918,304][INFO]: Done waiting for pending navigations. Status: ok
+[1715226918,320][INFO]: Waiting for pending navigations...
+[1715226918,321][INFO]: Done waiting for pending navigations. Status: ok
+[1715226918,321][INFO]: [239f853c6b92a47f03541e90e864889c] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@autocomplete='username']"}
+  (Session info: chrome=124.0.6367.155)
+[1715226918,322][INFO]: [239f853c6b92a47f03541e90e864889c] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@autocomplete='username']"
+}
+[1715226918,322][INFO]: Waiting for pending navigations...
+[1715226918,323][INFO]: Done waiting for pending navigations. Status: ok
+[1715226918,340][INFO]: Waiting for pending navigations...
+[1715226918,342][INFO]: Done waiting for pending navigations. Status: ok
+[1715226918,342][INFO]: [239f853c6b92a47f03541e90e864889c] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@autocomplete='username']"}
+  (Session info: chrome=124.0.6367.155)
+[1715226918,342][INFO]: [239f853c6b92a47f03541e90e864889c] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@autocomplete='username']"
+}
+[1715226918,343][INFO]: Waiting for pending navigations...
+[1715226918,344][INFO]: Done waiting for pending navigations. Status: ok
+[1715226918,428][INFO]: Waiting for pending navigations...
+[1715226918,431][INFO]: Done waiting for pending navigations. Status: ok
+[1715226918,432][INFO]: [239f853c6b92a47f03541e90e864889c] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@autocomplete='username']"}
+  (Session info: chrome=124.0.6367.155)
+[1715226918,432][INFO]: [239f853c6b92a47f03541e90e864889c] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@autocomplete='username']"
+}
+[1715226918,432][INFO]: Waiting for pending navigations...
+[1715226918,433][INFO]: Done waiting for pending navigations. Status: ok
+[1715226918,445][INFO]: Waiting for pending navigations...
+[1715226918,446][INFO]: Done waiting for pending navigations. Status: ok
+[1715226918,446][INFO]: [239f853c6b92a47f03541e90e864889c] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@autocomplete='username']"}
+  (Session info: chrome=124.0.6367.155)
+[1715226918,447][INFO]: [239f853c6b92a47f03541e90e864889c] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@autocomplete='username']"
+}
+[1715226918,447][INFO]: Waiting for pending navigations...
+[1715226918,448][INFO]: Done waiting for pending navigations. Status: ok
+[1715226918,462][INFO]: Waiting for pending navigations...
+[1715226918,463][INFO]: Done waiting for pending navigations. Status: ok
+[1715226918,463][INFO]: [239f853c6b92a47f03541e90e864889c] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@autocomplete='username']"}
+  (Session info: chrome=124.0.6367.155)
+[1715226918,465][INFO]: [239f853c6b92a47f03541e90e864889c] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@autocomplete='username']"
+}
+[1715226918,465][INFO]: Waiting for pending navigations...
+[1715226918,466][INFO]: Done waiting for pending navigations. Status: ok
+[1715226918,479][INFO]: Waiting for pending navigations...
+[1715226918,481][INFO]: Done waiting for pending navigations. Status: ok
+[1715226918,481][INFO]: [239f853c6b92a47f03541e90e864889c] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@autocomplete='username']"}
+  (Session info: chrome=124.0.6367.155)
+[1715226918,482][INFO]: [239f853c6b92a47f03541e90e864889c] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@autocomplete='username']"
+}
+[1715226918,482][INFO]: Waiting for pending navigations...
+[1715226918,483][INFO]: Done waiting for pending navigations. Status: ok
+[1715226918,496][INFO]: Waiting for pending navigations...
+[1715226918,498][INFO]: Done waiting for pending navigations. Status: ok
+[1715226918,498][INFO]: [239f853c6b92a47f03541e90e864889c] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@autocomplete='username']"}
+  (Session info: chrome=124.0.6367.155)
+[1715226918,499][INFO]: [239f853c6b92a47f03541e90e864889c] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@autocomplete='username']"
+}
+[1715226918,499][INFO]: Waiting for pending navigations...
+[1715226918,500][INFO]: Done waiting for pending navigations. Status: ok
+[1715226918,514][INFO]: Waiting for pending navigations...
+[1715226918,516][INFO]: Done waiting for pending navigations. Status: ok
+[1715226918,516][INFO]: [239f853c6b92a47f03541e90e864889c] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@autocomplete='username']"}
+  (Session info: chrome=124.0.6367.155)
+[1715226918,517][INFO]: [239f853c6b92a47f03541e90e864889c] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@autocomplete='username']"
+}
+[1715226918,517][INFO]: Waiting for pending navigations...
+[1715226918,518][INFO]: Done waiting for pending navigations. Status: ok
+[1715226918,540][INFO]: Waiting for pending navigations...
+[1715226918,541][INFO]: Done waiting for pending navigations. Status: ok
+[1715226918,541][INFO]: [239f853c6b92a47f03541e90e864889c] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@autocomplete='username']"}
+  (Session info: chrome=124.0.6367.155)
+[1715226918,541][INFO]: [239f853c6b92a47f03541e90e864889c] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@autocomplete='username']"
+}
+[1715226918,541][INFO]: Waiting for pending navigations...
+[1715226918,542][INFO]: Done waiting for pending navigations. Status: ok
+[1715226918,556][INFO]: Waiting for pending navigations...
+[1715226918,557][INFO]: Done waiting for pending navigations. Status: ok
+[1715226918,557][INFO]: [239f853c6b92a47f03541e90e864889c] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@autocomplete='username']"}
+  (Session info: chrome=124.0.6367.155)
+[1715226918,557][INFO]: [239f853c6b92a47f03541e90e864889c] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@autocomplete='username']"
+}
+[1715226918,557][INFO]: Waiting for pending navigations...
+[1715226918,558][INFO]: Done waiting for pending navigations. Status: ok
+[1715226918,572][INFO]: Waiting for pending navigations...
+[1715226918,573][INFO]: Done waiting for pending navigations. Status: ok
+[1715226918,573][INFO]: [239f853c6b92a47f03541e90e864889c] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@autocomplete='username']"}
+  (Session info: chrome=124.0.6367.155)
+[1715226918,574][INFO]: [239f853c6b92a47f03541e90e864889c] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@autocomplete='username']"
+}
+[1715226918,574][INFO]: Waiting for pending navigations...
+[1715226918,574][INFO]: Done waiting for pending navigations. Status: ok
+[1715226918,588][INFO]: Waiting for pending navigations...
+[1715226918,589][INFO]: Done waiting for pending navigations. Status: ok
+[1715226918,589][INFO]: [239f853c6b92a47f03541e90e864889c] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@autocomplete='username']"}
+  (Session info: chrome=124.0.6367.155)
+[1715226918,590][INFO]: [239f853c6b92a47f03541e90e864889c] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@autocomplete='username']"
+}
+[1715226918,590][INFO]: Waiting for pending navigations...
+[1715226918,591][INFO]: Done waiting for pending navigations. Status: ok
+[1715226918,604][INFO]: Waiting for pending navigations...
+[1715226918,606][INFO]: Done waiting for pending navigations. Status: ok
+[1715226918,606][INFO]: [239f853c6b92a47f03541e90e864889c] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@autocomplete='username']"}
+  (Session info: chrome=124.0.6367.155)
+[1715226918,606][INFO]: [239f853c6b92a47f03541e90e864889c] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@autocomplete='username']"
+}
+[1715226918,606][INFO]: Waiting for pending navigations...
+[1715226918,607][INFO]: Done waiting for pending navigations. Status: ok
+[1715226918,620][INFO]: Waiting for pending navigations...
+[1715226918,621][INFO]: Done waiting for pending navigations. Status: ok
+[1715226918,621][INFO]: [239f853c6b92a47f03541e90e864889c] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@autocomplete='username']"}
+  (Session info: chrome=124.0.6367.155)
+[1715226918,622][INFO]: [239f853c6b92a47f03541e90e864889c] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@autocomplete='username']"
+}
+[1715226918,622][INFO]: Waiting for pending navigations...
+[1715226918,628][INFO]: Done waiting for pending navigations. Status: ok
+[1715226918,656][INFO]: Waiting for pending navigations...
+[1715226918,658][INFO]: Done waiting for pending navigations. Status: ok
+[1715226918,658][INFO]: [239f853c6b92a47f03541e90e864889c] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@autocomplete='username']"}
+  (Session info: chrome=124.0.6367.155)
+[1715226918,658][INFO]: [239f853c6b92a47f03541e90e864889c] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@autocomplete='username']"
+}
+[1715226918,659][INFO]: Waiting for pending navigations...
+[1715226918,660][INFO]: Done waiting for pending navigations. Status: ok
+[1715226918,674][INFO]: Waiting for pending navigations...
+[1715226918,675][INFO]: Done waiting for pending navigations. Status: ok
+[1715226918,675][INFO]: [239f853c6b92a47f03541e90e864889c] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@autocomplete='username']"}
+  (Session info: chrome=124.0.6367.155)
+[1715226918,676][INFO]: [239f853c6b92a47f03541e90e864889c] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@autocomplete='username']"
+}
+[1715226918,676][INFO]: Waiting for pending navigations...
+[1715226918,677][INFO]: Done waiting for pending navigations. Status: ok
+[1715226918,693][INFO]: Waiting for pending navigations...
+[1715226918,694][INFO]: Done waiting for pending navigations. Status: ok
+[1715226918,694][INFO]: [239f853c6b92a47f03541e90e864889c] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@autocomplete='username']"}
+  (Session info: chrome=124.0.6367.155)
+[1715226918,695][INFO]: [239f853c6b92a47f03541e90e864889c] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@autocomplete='username']"
+}
+[1715226918,695][INFO]: Waiting for pending navigations...
+[1715226918,696][INFO]: Done waiting for pending navigations. Status: ok
+[1715226918,710][INFO]: Waiting for pending navigations...
+[1715226918,711][INFO]: Done waiting for pending navigations. Status: ok
+[1715226918,711][INFO]: [239f853c6b92a47f03541e90e864889c] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@autocomplete='username']"}
+  (Session info: chrome=124.0.6367.155)
+[1715226918,712][INFO]: [239f853c6b92a47f03541e90e864889c] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@autocomplete='username']"
+}
+[1715226918,712][INFO]: Waiting for pending navigations...
+[1715226918,713][INFO]: Done waiting for pending navigations. Status: ok
+[1715226918,727][INFO]: Waiting for pending navigations...
+[1715226918,729][INFO]: Done waiting for pending navigations. Status: ok
+[1715226918,729][INFO]: [239f853c6b92a47f03541e90e864889c] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@autocomplete='username']"}
+  (Session info: chrome=124.0.6367.155)
+[1715226918,730][INFO]: [239f853c6b92a47f03541e90e864889c] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@autocomplete='username']"
+}
+[1715226918,730][INFO]: Waiting for pending navigations...
+[1715226918,732][INFO]: Done waiting for pending navigations. Status: ok
+[1715226918,747][INFO]: Waiting for pending navigations...
+[1715226918,749][INFO]: Done waiting for pending navigations. Status: ok
+[1715226918,749][INFO]: [239f853c6b92a47f03541e90e864889c] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@autocomplete='username']"}
+  (Session info: chrome=124.0.6367.155)
+[1715226918,750][INFO]: [239f853c6b92a47f03541e90e864889c] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@autocomplete='username']"
+}
+[1715226918,750][INFO]: Waiting for pending navigations...
+[1715226918,751][INFO]: Done waiting for pending navigations. Status: ok
+[1715226918,768][INFO]: Waiting for pending navigations...
+[1715226918,769][INFO]: Done waiting for pending navigations. Status: ok
+[1715226918,769][INFO]: [239f853c6b92a47f03541e90e864889c] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@autocomplete='username']"}
+  (Session info: chrome=124.0.6367.155)
+[1715226918,770][INFO]: [239f853c6b92a47f03541e90e864889c] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@autocomplete='username']"
+}
+[1715226918,770][INFO]: Waiting for pending navigations...
+[1715226918,771][INFO]: Done waiting for pending navigations. Status: ok
+[1715226918,786][INFO]: Waiting for pending navigations...
+[1715226918,787][INFO]: Done waiting for pending navigations. Status: ok
+[1715226918,787][INFO]: [239f853c6b92a47f03541e90e864889c] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@autocomplete='username']"}
+  (Session info: chrome=124.0.6367.155)
+[1715226918,788][INFO]: [239f853c6b92a47f03541e90e864889c] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@autocomplete='username']"
+}
+[1715226918,788][INFO]: Waiting for pending navigations...
+[1715226918,789][INFO]: Done waiting for pending navigations. Status: ok
+[1715226918,804][INFO]: Waiting for pending navigations...
+[1715226918,804][INFO]: Done waiting for pending navigations. Status: ok
+[1715226918,804][INFO]: [239f853c6b92a47f03541e90e864889c] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@autocomplete='username']"}
+  (Session info: chrome=124.0.6367.155)
+[1715226918,805][INFO]: [239f853c6b92a47f03541e90e864889c] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@autocomplete='username']"
+}
+[1715226918,805][INFO]: Waiting for pending navigations...
+[1715226918,806][INFO]: Done waiting for pending navigations. Status: ok
+[1715226918,821][INFO]: Waiting for pending navigations...
+[1715226918,821][INFO]: Done waiting for pending navigations. Status: ok
+[1715226918,821][INFO]: [239f853c6b92a47f03541e90e864889c] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@autocomplete='username']"}
+  (Session info: chrome=124.0.6367.155)
+[1715226918,822][INFO]: [239f853c6b92a47f03541e90e864889c] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@autocomplete='username']"
+}
+[1715226918,822][INFO]: Waiting for pending navigations...
+[1715226918,823][INFO]: Done waiting for pending navigations. Status: ok
+[1715226918,992][INFO]: Waiting for pending navigations...
+[1715226919,003][INFO]: Done waiting for pending navigations. Status: ok
+[1715226919,003][INFO]: [239f853c6b92a47f03541e90e864889c] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@autocomplete='username']"}
+  (Session info: chrome=124.0.6367.155)
+[1715226919,004][INFO]: [239f853c6b92a47f03541e90e864889c] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@autocomplete='username']"
+}
+[1715226919,004][INFO]: Waiting for pending navigations...
+[1715226919,014][INFO]: Done waiting for pending navigations. Status: ok
+[1715226919,030][INFO]: Waiting for pending navigations...
+[1715226919,034][INFO]: Done waiting for pending navigations. Status: ok
+[1715226919,034][INFO]: [239f853c6b92a47f03541e90e864889c] RESPONSE FindElement {
+   "ELEMENT": "f.BB86E236F88E97B41DF62B934ACDFB40.d.62ED99E7A95FF29257573851E45DA88F.e.9"
+}
+[1715226919,035][INFO]: [239f853c6b92a47f03541e90e864889c] COMMAND TypeElement {
+   "id": "f.BB86E236F88E97B41DF62B934ACDFB40.d.62ED99E7A95FF29257573851E45DA88F.e.9",
+   "value": [ "c", "e", "n", "t", "r", "o", "F", "i", "n", "a", "n", "c", "e", "i", "r" ]
+}
+[1715226919,035][INFO]: Waiting for pending navigations...
+[1715226919,036][INFO]: Done waiting for pending navigations. Status: ok
+[1715226919,419][INFO]: Waiting for pending navigations...
+[1715226919,440][INFO]: Done waiting for pending navigations. Status: ok
+[1715226919,440][INFO]: [239f853c6b92a47f03541e90e864889c] RESPONSE TypeElement
+[1715226921,441][INFO]: [239f853c6b92a47f03541e90e864889c] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//*[@role='button']"
+}
+[1715226921,441][INFO]: Waiting for pending navigations...
+[1715226921,442][INFO]: Done waiting for pending navigations. Status: ok
+[1715226921,459][INFO]: Waiting for pending navigations...
+[1715226921,460][INFO]: Done waiting for pending navigations. Status: ok
+[1715226921,461][INFO]: [239f853c6b92a47f03541e90e864889c] RESPONSE FindElements [ {
+   "ELEMENT": "f.BB86E236F88E97B41DF62B934ACDFB40.d.62ED99E7A95FF29257573851E45DA88F.e.11"
+}, {
+   "ELEMENT": "f.BB86E236F88E97B41DF62B934ACDFB40.d.62ED99E7A95FF29257573851E45DA88F.e.15"
+}, {
+   "ELEMENT": "f.BB86E236F88E97B41DF62B934ACDFB40.d.62ED99E7A95FF29257573851E45DA88F.e.16"
+}, {
+   "ELEMENT": "f.BB86E236F88E97B41DF62B934ACDFB40.d.62ED99E7A95FF29257573851E45DA88F.e.17"
+}, {
+   "ELEMENT": "f.BB86E236F88E97B41DF62B934ACDFB40.d.62ED99E7A95FF29257573851E45DA88F.e.18"
+} ]
+[1715226921,461][INFO]: [239f853c6b92a47f03541e90e864889c] COMMAND ClickElement {
+   "id": "f.BB86E236F88E97B41DF62B934ACDFB40.d.62ED99E7A95FF29257573851E45DA88F.e.16"
+}
+[1715226921,461][INFO]: Waiting for pending navigations...
+[1715226921,462][INFO]: Done waiting for pending navigations. Status: ok
+[1715226921,541][INFO]: Waiting for pending navigations...
+[1715226921,551][INFO]: Done waiting for pending navigations. Status: ok
+[1715226921,551][INFO]: [239f853c6b92a47f03541e90e864889c] RESPONSE ClickElement
+[1715226923,553][INFO]: [239f853c6b92a47f03541e90e864889c] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@autocomplete='current-password']"
+}
+[1715226923,554][INFO]: Waiting for pending navigations...
+[1715226923,555][INFO]: Done waiting for pending navigations. Status: ok
+[1715226923,591][INFO]: Waiting for pending navigations...
+[1715226923,593][INFO]: Done waiting for pending navigations. Status: ok
+[1715226923,593][INFO]: [239f853c6b92a47f03541e90e864889c] RESPONSE FindElement {
+   "ELEMENT": "f.BB86E236F88E97B41DF62B934ACDFB40.d.62ED99E7A95FF29257573851E45DA88F.e.19"
+}
+[1715226923,594][INFO]: [239f853c6b92a47f03541e90e864889c] COMMAND TypeElement {
+   "id": "f.BB86E236F88E97B41DF62B934ACDFB40.d.62ED99E7A95FF29257573851E45DA88F.e.19",
+   "value": [ "a", "b", "c", "d", "e", "2", "4", "!" ]
+}
+[1715226923,595][INFO]: Waiting for pending navigations...
+[1715226923,596][INFO]: Done waiting for pending navigations. Status: ok
+[1715226923,796][INFO]: Waiting for pending navigations...
+[1715226923,800][INFO]: Done waiting for pending navigations. Status: ok
+[1715226923,800][INFO]: [239f853c6b92a47f03541e90e864889c] RESPONSE TypeElement
+[1715226925,802][INFO]: [239f853c6b92a47f03541e90e864889c] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@data-testid='LoginForm_Login_Button']"
+}
+[1715226925,802][INFO]: Waiting for pending navigations...
+[1715226925,804][INFO]: Done waiting for pending navigations. Status: ok
+[1715226925,844][INFO]: Waiting for pending navigations...
+[1715226925,845][INFO]: Done waiting for pending navigations. Status: ok
+[1715226925,845][INFO]: [239f853c6b92a47f03541e90e864889c] RESPONSE FindElement {
+   "ELEMENT": "f.BB86E236F88E97B41DF62B934ACDFB40.d.62ED99E7A95FF29257573851E45DA88F.e.23"
+}
+[1715226925,846][INFO]: [239f853c6b92a47f03541e90e864889c] COMMAND ClickElement {
+   "id": "f.BB86E236F88E97B41DF62B934ACDFB40.d.62ED99E7A95FF29257573851E45DA88F.e.23"
+}
+[1715226925,846][INFO]: Waiting for pending navigations...
+[1715226925,847][INFO]: Done waiting for pending navigations. Status: ok
+[1715226925,942][INFO]: Waiting for pending navigations...
+[1715226925,945][INFO]: Done waiting for pending navigations. Status: ok
+[1715226925,945][INFO]: [239f853c6b92a47f03541e90e864889c] RESPONSE ClickElement
+[1715226932,949][INFO]: [239f853c6b92a47f03541e90e864889c] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@class='public-DraftStyleDefault-block public-DraftStyleDefault-ltr']//*[@data-text='true']"
+}
+[1715226932,949][INFO]: Waiting for pending navigations...
+[1715226933,019][INFO]: Done waiting for pending navigations. Status: ok
+[1715226933,064][INFO]: Waiting for pending navigations...
+[1715226933,261][INFO]: Done waiting for pending navigations. Status: ok
+[1715226933,261][INFO]: [239f853c6b92a47f03541e90e864889c] RESPONSE FindElement {
+   "ELEMENT": "f.BB86E236F88E97B41DF62B934ACDFB40.d.8B9826AFC2FE5A3F8BF47A6D400B8E74.e.120"
+}
+[1715226933,262][INFO]: [239f853c6b92a47f03541e90e864889c] COMMAND TypeElement {
+   "id": "f.BB86E236F88E97B41DF62B934ACDFB40.d.8B9826AFC2FE5A3F8BF47A6D400B8E74.e.120",
+   "value": [ "H", "e", "l", "l", "o", ",", " ", "W", "o", "r", "l", "d", "!" ]
+}
+[1715226933,262][INFO]: Waiting for pending navigations...
+[1715226933,263][INFO]: Done waiting for pending navigations. Status: ok
+[1715226934,715][INFO]: Waiting for pending navigations...
+[1715226934,806][INFO]: Done waiting for pending navigations. Status: ok
+[1715226934,806][INFO]: [239f853c6b92a47f03541e90e864889c] RESPONSE TypeElement
+[1715226934,807][INFO]: [239f853c6b92a47f03541e90e864889c] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@class='css-175oi2r r-sdzlij r-1phboty r-rs99b7 r-lrvibr r-19u6a5r r-2yi16 r-1qi8awa r-ymttw5 r-1loqt21 r-o7ynqc r-6416eg r-1ny4l3l']"
+}
+[1715226934,807][INFO]: Waiting for pending navigations...
+[1715226934,825][INFO]: Done waiting for pending navigations. Status: ok
+[1715226934,880][INFO]: Waiting for pending navigations...
+[1715226934,889][INFO]: Done waiting for pending navigations. Status: ok
+[1715226934,889][INFO]: [239f853c6b92a47f03541e90e864889c] RESPONSE FindElement {
+   "ELEMENT": "f.BB86E236F88E97B41DF62B934ACDFB40.d.8B9826AFC2FE5A3F8BF47A6D400B8E74.e.198"
+}
+[1715226934,890][INFO]: [239f853c6b92a47f03541e90e864889c] COMMAND ClickElement {
+   "id": "f.BB86E236F88E97B41DF62B934ACDFB40.d.8B9826AFC2FE5A3F8BF47A6D400B8E74.e.198"
+}
+[1715226934,890][INFO]: Waiting for pending navigations...
+[1715226934,892][INFO]: Done waiting for pending navigations. Status: ok
+[1715226935,043][INFO]: Waiting for pending navigations...
+[1715226935,175][INFO]: Done waiting for pending navigations. Status: ok
+[1715226935,175][INFO]: [239f853c6b92a47f03541e90e864889c] RESPONSE ClickElement
