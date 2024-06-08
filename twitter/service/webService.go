@@ -16,7 +16,7 @@ type Web struct {
 const (
 	baseUrlTwitter  = "https://twitter.com/"
 	urlTwitterLogin = baseUrlTwitter + "i/flow/login"
-	pathDriver      = "driver/chromedriver"
+	pathDriver      = "resources/chromedriver"
 )
 
 func Init(username string, password string) Web {
@@ -27,7 +27,7 @@ func Init(username string, password string) Web {
 		log.Println(err)
 	}
 
-	desired := webdriver.Capabilities{"Platform": "Linux"}
+	desired := webdriver.Capabilities{"Platform": "WINDOWS"}
 	required := webdriver.Capabilities{}
 	session, err := chromedriver.NewSession(desired, required)
 	if err != nil {

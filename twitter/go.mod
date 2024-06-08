@@ -3,17 +3,18 @@ module github.com/alscaldeira/twitter
 go 1.20
 
 require (
+	github.com/fedesog/webdriver v0.0.0-20180606182539-99f36c92eaef
 	github.com/gorilla/mux v1.8.1
 	go.mongodb.org/mongo-driver v1.13.1
 )
 
 require (
-	github.com/fedesog/webdriver v0.0.0-20180606182539-99f36c92eaef // indirect
+	github.com/blang/semver v3.5.1+incompatible // indirect
 	github.com/golang/snappy v0.0.1 // indirect
 	github.com/google/go-cmp v0.5.5 // indirect
 	github.com/klauspost/compress v1.13.6 // indirect
 	github.com/montanaflynn/stats v0.0.0-20171201202039-1bf9dbcd8cbe // indirect
-	github.com/sclevine/agouti v3.0.0+incompatible // indirect
+	github.com/radutopala/webdriver v0.0.0-20180724211145-da6a603ac1bb // indirect
 	github.com/xdg-go/pbkdf2 v1.0.0 // indirect
 	github.com/xdg-go/scram v1.1.2 // indirect
 	github.com/xdg-go/stringprep v1.0.4 // indirect
